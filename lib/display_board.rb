@@ -38,10 +38,10 @@ def display_board board = ["X","X","X"," "," "," "," "," "," "]
     puts "   |   |   "
 end
 
-def display_board board = ["X","X","X"," "," "," "," "," "," "]
+def display_board board = [" "," "," "," "," "," ","O","O","O"]
     puts "   |   |   "
     puts "-----------"
     puts "   |   |   "
     puts "-----------"
-    puts " X | X | X "
+    puts " O | O | O "
 end
