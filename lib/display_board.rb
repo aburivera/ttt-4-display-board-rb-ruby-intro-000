@@ -45,3 +45,19 @@ def display_board board = [" "," "," "," "," "," ","O","O","O"]
     puts "-----------"
     puts " O | O | O "
 end
+
+def display_board board = ["X"," "," "," ","X"," "," "," ","X"]
+    puts " X |   |   "
+    puts "-----------"
+    puts "   | X |   "
+    puts "-----------"
+    puts "   |   | X "
+end
+
+def display_board board = ["O"," "," "," ","O"," "," "," ","O"]
+    puts "   |   | O "
+    puts "-----------"
+    puts "   | O |   "
+    puts "-----------"
+    puts " O |   |   "
+end  
