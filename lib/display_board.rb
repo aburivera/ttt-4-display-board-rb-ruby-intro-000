@@ -22,10 +22,10 @@ def display_board board = [" "," "," "," ","X"," "," "," "," "]
     puts "   |   |   "
 end
 
-def display_board board = ["O"," "," "," "," "," "," "," "," "]
+def display_board board = ["O"," "," "," ","X"," "," "," "," "]
     puts " O |   |   "
     puts "-----------"
-    puts "   |   |   "
+    puts "   | X |   "
     puts "-----------"
     puts "   |   |   "
 end
