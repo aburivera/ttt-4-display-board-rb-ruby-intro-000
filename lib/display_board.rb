@@ -29,3 +29,11 @@ def display_board board = ["O"," "," "," ","X"," "," "," "," "]
     puts "-----------"
     puts "   |   |   "
 end
+
+def display_board board = ["X","X","X"," "," "," "," "," "," "]
+    puts " X | X | X "
+    puts "-----------"
+    puts "   |   |   "
+    puts "-----------"
+    puts "   |   |   "
+end
